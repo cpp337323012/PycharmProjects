@@ -1,0 +1,27 @@
+1.web框架的原理：socket客户端和socket服务端的通讯，通过字符串进行传递。
+2.socket链接特性：短连接，连接交互完成断开。
+3.模板引擎通过服务器端渲染，传递给浏览器的字符串包含html等特殊标记，浏览器识别html标签识别。
+
+Django程序目录：
+    mysurprise
+           mysurprise
+            - settings.py # Django配置文件
+            - urls.py     # 路由系统：URL -> 函数
+            - wsgi.py     # 用于定义Django用socket, wsgiref, uwsgi
+            # 对于当前Django程序所有操作可以基于python manage.py runserver
+
+4.url 对应关系
+    urls -/login/
+    viws -def login()
+
+    def login(request):
+        request.methond
+        request.POST
+        request.GET
+
+5.模板引擎中的特殊标记
+    login.html
+        {{name}}
+
+    def login(request);
+        return render(request, 'login.html', {'name':'提醒内容 '})

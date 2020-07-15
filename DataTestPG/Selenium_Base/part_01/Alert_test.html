@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web自动化-弹出对话框</title>
+    <script>
+        function appendEle(info) {
+            var node = document.createElement("LI");
+            var textNode = document.createTextNode(info);
+            node.appendChild(textNode);
+            document.getElementById("add").appendChild(node);
+        }
+
+        function clickResponse() {
+            if (confirm("你确定要跟CP一起学习Python么？") == true) {
+                appendEle("确定");
+            }else{
+                appendEle("取消操作");
+            }
+        }
+
+        function clickPrompt() {
+            var PythonCourse = prompt("请输入你要学习的Python课程", "Python数据分析");
+
+            if (PythonCourse == null) {
+                appendEle("取消操作");
+            } else {
+                appendEle("您想学习的课程：" + PythonCourse);
+            }
+        }
+
+    </script>
+</head>
+<body>
+<br>
+<br>
+<button id="b1" onclick="alert('现在开始跟CP一起学习Python！');">alert</button>
+<br>
+<br>
+<button id="b2" onclick="clickResponse()">confirm</button>
+<br>
+<br>
+<button id="b3" onclick="clickPrompt()">prompt</button>
+<div id="add"></div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+步骤：
+1. 创建数据库
+2. settings修改配置
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':'project_mysql',
+        'USER': 'root',
+        'PASSWORD': '6666',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+3. __init__文件
+添加：
+import pymysql
+pymysql.install_as_MySQLdb()

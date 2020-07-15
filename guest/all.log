@@ -1,0 +1,722 @@
+[2020-02-13 07:57:36,855] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 07:57:36,855] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 07:57:36,899] [ERROR] basehttp : "GET / HTTP/1.1" 500 77254
+[2020-02-13 07:57:36,899] [ERROR] basehttp : "GET / HTTP/1.1" 500 77254
+[2020-02-13 07:57:36,995] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 07:57:36,995] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:02:29,183] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:02:29,183] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:02:29,240] [ERROR] basehttp : "GET / HTTP/1.1" 500 77636
+[2020-02-13 08:02:29,240] [ERROR] basehttp : "GET / HTTP/1.1" 500 77636
+[2020-02-13 08:02:47,959] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:02:47,959] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:02:47,994] [ERROR] basehttp : "GET / HTTP/1.1" 500 77636
+[2020-02-13 08:02:47,994] [ERROR] basehttp : "GET / HTTP/1.1" 500 77636
+[2020-02-13 08:05:25,265] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:25,265] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:25,311] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:25,311] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:26,228] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:26,228] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:26,262] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:26,262] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:35,650] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:35,650] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:35,686] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:35,686] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:38,531] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:38,531] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:38,565] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:38,565] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:40,917] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:40,917] [ERROR] exception : Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:40,953] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:40,953] [ERROR] basehttp : "GET / HTTP/1.1" 500 77232
+[2020-02-13 08:05:42,967] [INFO] basehttp : "GET /index HTTP/1.1" 301 0
+[2020-02-13 08:05:42,967] [INFO] basehttp : "GET /index HTTP/1.1" 301 0
+[2020-02-13 08:05:42,971] [ERROR] exception : Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:42,971] [ERROR] exception : Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 16, in index
+    return render(request, 'index.html')
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+[2020-02-13 08:05:43,007] [ERROR] basehttp : "GET /index/ HTTP/1.1" 500 77310
+[2020-02-13 08:05:43,007] [ERROR] basehttp : "GET /index/ HTTP/1.1" 500 77310
+[2020-02-13 08:05:43,057] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:05:43,057] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:08:20,518] [INFO] basehttp : "GET / HTTP/1.1" 200 1471
+[2020-02-13 08:08:20,518] [INFO] basehttp : "GET / HTTP/1.1" 200 1471
+[2020-02-13 08:08:39,220] [INFO] basehttp : "POST /login_action/ HTTP/1.1" 200 1498
+[2020-02-13 08:08:39,220] [INFO] basehttp : "POST /login_action/ HTTP/1.1" 200 1498
+[2020-02-13 08:08:39,271] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:08:39,271] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:08:57,095] [WARNING] basehttp : "GET /guest/ HTTP/1.1" 404 3489
+[2020-02-13 08:08:57,095] [WARNING] basehttp : "GET /guest/ HTTP/1.1" 404 3489
+[2020-02-13 08:08:57,130] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:08:57,130] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:09:06,872] [WARNING] basehttp : "GET /base/ HTTP/1.1" 404 3486
+[2020-02-13 08:09:06,872] [WARNING] basehttp : "GET /base/ HTTP/1.1" 404 3486
+[2020-02-13 08:09:06,902] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:09:06,902] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:09:20,150] [WARNING] basehttp : "GET /404 HTTP/1.1" 404 3480
+[2020-02-13 08:09:20,150] [WARNING] basehttp : "GET /404 HTTP/1.1" 404 3480
+[2020-02-13 08:09:20,181] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:09:20,181] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:17:20,104] [INFO] basehttp : "GET /admin/ HTTP/1.1" 302 0
+[2020-02-13 08:17:20,104] [INFO] basehttp : "GET /admin/ HTTP/1.1" 302 0
+[2020-02-13 08:17:20,135] [INFO] basehttp : "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[2020-02-13 08:17:20,135] [INFO] basehttp : "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1650
+[2020-02-13 08:17:20,155] [INFO] basehttp : "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2020-02-13 08:17:20,155] [INFO] basehttp : "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[2020-02-13 08:17:20,156] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[2020-02-13 08:17:20,156] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[2020-02-13 08:17:20,184] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-02-13 08:17:20,184] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2020-02-13 08:17:20,200] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-02-13 08:17:20,200] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[2020-02-13 08:17:20,200] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-02-13 08:17:20,200] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[2020-02-13 08:17:20,252] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:17:20,252] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:17:28,324] [INFO] basehttp : "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-02-13 08:17:28,324] [INFO] basehttp : "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2020-02-13 08:17:28,353] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 4964
+[2020-02-13 08:17:28,353] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 4964
+[2020-02-13 08:17:28,364] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2020-02-13 08:17:28,364] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2020-02-13 08:17:28,372] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-02-13 08:17:28,372] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-02-13 08:17:28,372] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2020-02-13 08:17:28,372] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2020-02-13 08:17:28,377] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-02-13 08:17:28,377] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[2020-02-13 08:17:28,404] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:17:28,404] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:05,525] [INFO] basehttp : "GET /admin/auth/group/add/ HTTP/1.1" 200 6345
+[2020-02-13 08:18:05,525] [INFO] basehttp : "GET /admin/auth/group/add/ HTTP/1.1" 200 6345
+[2020-02-13 08:18:05,550] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[2020-02-13 08:18:05,550] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[2020-02-13 08:18:05,552] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-02-13 08:18:05,552] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2020-02-13 08:18:05,554] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-02-13 08:18:05,554] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[2020-02-13 08:18:05,557] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[2020-02-13 08:18:05,558] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[2020-02-13 08:18:05,557] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[2020-02-13 08:18:05,558] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[2020-02-13 08:18:05,561] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[2020-02-13 08:18:05,562] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-02-13 08:18:05,561] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[2020-02-13 08:18:05,562] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[2020-02-13 08:18:05,566] [INFO] basehttp : "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[2020-02-13 08:18:05,566] [INFO] basehttp : "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+[2020-02-13 08:18:05,568] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-02-13 08:18:05,568] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[2020-02-13 08:18:05,570] [INFO] basehttp : "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+[2020-02-13 08:18:05,570] [INFO] basehttp : "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+[2020-02-13 08:18:05,571] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-02-13 08:18:05,571] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[2020-02-13 08:18:05,572] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-02-13 08:18:05,573] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-02-13 08:18:05,572] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2020-02-13 08:18:05,573] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[2020-02-13 08:18:05,575] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:05,575] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:05,575] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-02-13 08:18:05,575] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[2020-02-13 08:18:05,625] [INFO] basehttp : "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2020-02-13 08:18:05,625] [INFO] basehttp : "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2020-02-13 08:18:05,626] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2020-02-13 08:18:05,626] [INFO] basehttp : "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2020-02-13 08:18:05,626] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2020-02-13 08:18:05,627] [INFO] basehttp : "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2020-02-13 08:18:05,626] [INFO] basehttp : "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2020-02-13 08:18:05,627] [INFO] basehttp : "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2020-02-13 08:18:05,645] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:05,645] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:26,021] [INFO] basehttp : "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+[2020-02-13 08:18:26,021] [INFO] basehttp : "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+[2020-02-13 08:18:26,064] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 4889
+[2020-02-13 08:18:26,064] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 4889
+[2020-02-13 08:18:26,079] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2020-02-13 08:18:26,079] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2020-02-13 08:18:26,086] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:26,086] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:26,100] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2020-02-13 08:18:26,100] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2020-02-13 08:18:26,100] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2020-02-13 08:18:26,100] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2020-02-13 08:18:26,138] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:26,138] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:28,971] [INFO] basehttp : "GET /admin/auth/group/1/change/ HTTP/1.1" 200 6571
+[2020-02-13 08:18:28,971] [INFO] basehttp : "GET /admin/auth/group/1/change/ HTTP/1.1" 200 6571
+[2020-02-13 08:18:28,990] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:28,990] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:29,021] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:29,021] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:30,718] [INFO] basehttp : "GET /admin/auth/group/1/delete/ HTTP/1.1" 200 2997
+[2020-02-13 08:18:30,718] [INFO] basehttp : "GET /admin/auth/group/1/delete/ HTTP/1.1" 200 2997
+[2020-02-13 08:18:30,737] [INFO] basehttp : "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[2020-02-13 08:18:30,737] [INFO] basehttp : "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[2020-02-13 08:18:30,757] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:30,757] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:32,849] [INFO] basehttp : "POST /admin/auth/group/1/delete/ HTTP/1.1" 302 0
+[2020-02-13 08:18:32,849] [INFO] basehttp : "POST /admin/auth/group/1/delete/ HTTP/1.1" 302 0
+[2020-02-13 08:18:32,885] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 4644
+[2020-02-13 08:18:32,885] [INFO] basehttp : "GET /admin/auth/group/ HTTP/1.1" 200 4644
+[2020-02-13 08:18:32,903] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:32,903] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:38,153] [INFO] basehttp : "GET /admin/auth/ HTTP/1.1" 200 2705
+[2020-02-13 08:18:38,153] [INFO] basehttp : "GET /admin/auth/ HTTP/1.1" 200 2705
+[2020-02-13 08:18:38,188] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:38,188] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:39,746] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 6694
+[2020-02-13 08:18:39,746] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 6694
+[2020-02-13 08:18:39,773] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:39,773] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:39,786] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2020-02-13 08:18:39,786] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2020-02-13 08:18:39,817] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:39,817] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:44,153] [INFO] basehttp : "GET /admin/auth/ HTTP/1.1" 200 2705
+[2020-02-13 08:18:44,153] [INFO] basehttp : "GET /admin/auth/ HTTP/1.1" 200 2705
+[2020-02-13 08:18:45,592] [INFO] basehttp : "GET /admin/auth/user/add/ HTTP/1.1" 200 5501
+[2020-02-13 08:18:45,592] [INFO] basehttp : "GET /admin/auth/user/add/ HTTP/1.1" 200 5501
+[2020-02-13 08:18:45,611] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:45,611] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:18:45,648] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:18:45,648] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:19:09,325] [INFO] basehttp : "POST /admin/auth/user/add/ HTTP/1.1" 200 5778
+[2020-02-13 08:19:09,325] [INFO] basehttp : "POST /admin/auth/user/add/ HTTP/1.1" 200 5778
+[2020-02-13 08:19:09,346] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:09,346] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:32,519] [INFO] basehttp : "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[2020-02-13 08:19:32,519] [INFO] basehttp : "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[2020-02-13 08:19:32,592] [INFO] basehttp : "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14017
+[2020-02-13 08:19:32,592] [INFO] basehttp : "GET /admin/auth/user/2/change/ HTTP/1.1" 200 14017
+[2020-02-13 08:19:32,610] [INFO] basehttp : "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[2020-02-13 08:19:32,610] [INFO] basehttp : "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[2020-02-13 08:19:32,611] [INFO] basehttp : "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[2020-02-13 08:19:32,611] [INFO] basehttp : "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[2020-02-13 08:19:32,617] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:32,617] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:32,659] [INFO] basehttp : "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2020-02-13 08:19:32,659] [INFO] basehttp : "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2020-02-13 08:19:32,659] [INFO] basehttp : "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[2020-02-13 08:19:32,659] [INFO] basehttp : "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[2020-02-13 08:19:32,682] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:19:32,682] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:19:46,869] [INFO] basehttp : "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+[2020-02-13 08:19:46,869] [INFO] basehttp : "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+[2020-02-13 08:19:46,909] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 7292
+[2020-02-13 08:19:46,909] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 7292
+[2020-02-13 08:19:46,926] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2020-02-13 08:19:46,926] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2020-02-13 08:19:46,936] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:46,936] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:58,719] [INFO] basehttp : "GET /admin/auth/user/2/change/ HTTP/1.1" 200 13822
+[2020-02-13 08:19:58,719] [INFO] basehttp : "GET /admin/auth/user/2/change/ HTTP/1.1" 200 13822
+[2020-02-13 08:19:58,730] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:19:58,730] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:20:14,390] [INFO] basehttp : "POST /admin/auth/user/2/change/ HTTP/1.1" 200 14034
+[2020-02-13 08:20:14,390] [INFO] basehttp : "POST /admin/auth/user/2/change/ HTTP/1.1" 200 14034
+[2020-02-13 08:20:14,412] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:20:14,412] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:20:28,077] [INFO] basehttp : "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+[2020-02-13 08:20:28,077] [INFO] basehttp : "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+[2020-02-13 08:20:28,125] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 7292
+[2020-02-13 08:20:28,125] [INFO] basehttp : "GET /admin/auth/user/ HTTP/1.1" 200 7292
+[2020-02-13 08:20:28,146] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:20:28,146] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 3189
+[2020-02-13 08:20:40,617] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:20:40,617] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:20:41,374] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:20:41,374] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:20:48,959] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:20:48,959] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:20:48,993] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 66028
+[2020-02-13 08:20:48,993] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 66028
+[2020-02-13 08:20:49,042] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:20:49,042] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:26:09,036] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:26:09,036] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:26:09,073] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 69434
+[2020-02-13 08:26:09,073] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 69434
+[2020-02-13 08:26:17,197] [INFO] basehttp : "GET /login_action/ HTTP/1.1" 200 1471
+[2020-02-13 08:26:17,197] [INFO] basehttp : "GET /login_action/ HTTP/1.1" 200 1471
+[2020-02-13 08:26:19,106] [INFO] basehttp : "GET / HTTP/1.1" 200 1471
+[2020-02-13 08:26:19,106] [INFO] basehttp : "GET / HTTP/1.1" 200 1471
+[2020-02-13 08:26:19,453] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:26:19,453] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:26:20,270] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:26:20,270] [INFO] basehttp : "GET /index/ HTTP/1.1" 200 1471
+[2020-02-13 08:26:27,738] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:26:27,738] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:26:27,769] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 69434
+[2020-02-13 08:26:27,769] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 69434
+[2020-02-13 08:29:50,993] [INFO] basehttp : "GET /login_action/ HTTP/1.1" 200 1471
+[2020-02-13 08:29:50,993] [INFO] basehttp : "GET /login_action/ HTTP/1.1" 200 1471
+[2020-02-13 08:30:06,197] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:30:06,197] [ERROR] exception : Internal Server Error: /login_action/
+Traceback (most recent call last):
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/cp/PycharmProjects/guest/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/cp/PycharmProjects/guest/sign/views.py", line 33, in login_action
+    request.seesion['username'] = username # 将seesion信息写到服务器
+AttributeError: 'WSGIRequest' object has no attribute 'seesion'
+[2020-02-13 08:30:06,233] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 69441
+[2020-02-13 08:30:06,233] [ERROR] basehttp : "POST /login_action/ HTTP/1.1" 500 69441
+[2020-02-13 08:30:39,956] [INFO] basehttp : "GET /login_action/ HTTP/1.1" 200 1471
+[2020-02-13 08:30:39,956] [INFO] basehttp : "GET /login_action/ HTTP/1.1" 200 1471
+[2020-02-13 08:30:47,546] [INFO] basehttp : "POST /login_action/ HTTP/1.1" 302 0
+[2020-02-13 08:30:47,546] [INFO] basehttp : "POST /login_action/ HTTP/1.1" 302 0
+[2020-02-13 08:30:47,559] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3522
+[2020-02-13 08:30:47,559] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3522
+[2020-02-13 08:30:47,961] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:30:47,961] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:30:53,953] [INFO] basehttp : "GET /sign_index2/1/ HTTP/1.1" 200 1509
+[2020-02-13 08:30:53,953] [INFO] basehttp : "GET /sign_index2/1/ HTTP/1.1" 200 1509
+[2020-02-13 08:30:53,967] [INFO] basehttp : "GET /static/js/conference_sign.js HTTP/1.1" 200 4291
+[2020-02-13 08:30:53,967] [INFO] basehttp : "GET /static/js/conference_sign.js HTTP/1.1" 200 4291
+[2020-02-13 08:30:53,968] [INFO] basehttp : "GET /static/css/draw_results.css HTTP/1.1" 200 10734
+[2020-02-13 08:30:53,968] [INFO] basehttp : "GET /static/css/draw_results.css HTTP/1.1" 200 10734
+[2020-02-13 08:30:53,969] [INFO] basehttp : "GET /static/js/jquery-1.10.2.min.js HTTP/1.1" 200 93107
+[2020-02-13 08:30:53,969] [INFO] basehttp : "GET /static/js/jquery-1.10.2.min.js HTTP/1.1" 200 93107
+[2020-02-13 08:30:54,015] [INFO] basehttp : "GET /static/image/sign/bg-left-center.png HTTP/1.1" 200 1892
+[2020-02-13 08:30:54,015] [INFO] basehttp : "GET /static/image/sign/bg-left-center.png HTTP/1.1" 200 1892
+[2020-02-13 08:30:54,017] [INFO] basehttp : "GET /static/image/sign/bg-top-center.png HTTP/1.1" 200 2374
+[2020-02-13 08:30:54,018] [INFO] basehttp : "GET /static/image/sign/cent.png HTTP/1.1" 200 3433
+[2020-02-13 08:30:54,018] [INFO] basehttp : "GET /static/image/sign/cent.png HTTP/1.1" 200 3433
+[2020-02-13 08:30:54,017] [INFO] basehttp : "GET /static/image/sign/bg-top-center.png HTTP/1.1" 200 2374
+[2020-02-13 08:30:54,020] [INFO] basehttp : "GET /static/image/sign/bg-right-top.png HTTP/1.1" 200 28503
+[2020-02-13 08:30:54,022] [INFO] basehttp : "GET /static/image/sign/bg-right-bottom.png HTTP/1.1" 200 38413
+[2020-02-13 08:30:54,020] [INFO] basehttp : "GET /static/image/sign/bg-right-top.png HTTP/1.1" 200 28503
+[2020-02-13 08:30:54,022] [INFO] basehttp : "GET /static/image/sign/bg-right-bottom.png HTTP/1.1" 200 38413
+[2020-02-13 08:30:54,023] [INFO] basehttp : "GET /static/image/sign/bg-left-bottom.png HTTP/1.1" 200 57959
+[2020-02-13 08:30:54,023] [INFO] basehttp : "GET /static/image/sign/bg-left-bottom.png HTTP/1.1" 200 57959
+[2020-02-13 08:30:54,074] [INFO] basehttp : "GET /static/image/sign/mx4.ttf HTTP/1.1" 200 8173832
+[2020-02-13 08:30:54,074] [INFO] basehttp : "GET /static/image/sign/mx4.ttf HTTP/1.1" 200 8173832
+[2020-02-13 08:30:54,109] [INFO] basehttp : "GET /static/image/favicon.ico HTTP/1.1" 200 1029
+[2020-02-13 08:30:54,109] [INFO] basehttp : "GET /static/image/favicon.ico HTTP/1.1" 200 1029
+[2020-02-13 08:31:04,197] [INFO] basehttp : "GET /sign_index2/1/ HTTP/1.1" 200 1509
+[2020-02-13 08:31:04,197] [INFO] basehttp : "GET /sign_index2/1/ HTTP/1.1" 200 1509
+[2020-02-13 08:31:07,042] [INFO] basehttp : "GET /sign_index/1/ HTTP/1.1" 200 2761
+[2020-02-13 08:31:07,042] [INFO] basehttp : "GET /sign_index/1/ HTTP/1.1" 200 2761
+[2020-02-13 08:31:07,093] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:31:07,093] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:31:16,814] [INFO] basehttp : "GET /guest_manage/ HTTP/1.1" 200 3621
+[2020-02-13 08:31:16,814] [INFO] basehttp : "GET /guest_manage/ HTTP/1.1" 200 3621
+[2020-02-13 08:31:16,864] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:31:16,864] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:32:50,295] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3942
+[2020-02-13 08:32:50,295] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3942
+[2020-02-13 08:33:04,063] [INFO] basehttp : "GET /guest_manage/ HTTP/1.1" 200 3621
+[2020-02-13 08:33:04,063] [INFO] basehttp : "GET /guest_manage/ HTTP/1.1" 200 3621
+[2020-02-13 08:33:44,740] [INFO] basehttp : "GET /guest_manage/ HTTP/1.1" 200 3919
+[2020-02-13 08:33:44,740] [INFO] basehttp : "GET /guest_manage/ HTTP/1.1" 200 3919
+[2020-02-13 08:33:48,341] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3942
+[2020-02-13 08:33:48,341] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3942
+[2020-02-13 08:33:51,801] [INFO] basehttp : "GET /sign_index/2/ HTTP/1.1" 200 2765
+[2020-02-13 08:33:51,801] [INFO] basehttp : "GET /sign_index/2/ HTTP/1.1" 200 2765
+[2020-02-13 08:33:51,841] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:33:51,841] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:33:55,478] [INFO] basehttp : "POST /sign_index_action/2/ HTTP/1.1" 200 2776
+[2020-02-13 08:33:55,478] [INFO] basehttp : "POST /sign_index_action/2/ HTTP/1.1" 200 2776
+[2020-02-13 08:33:55,518] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:33:55,518] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 3504
+[2020-02-13 08:33:57,932] [INFO] basehttp : "POST /sign_index_action/2/ HTTP/1.1" 200 2776
+[2020-02-13 08:33:57,932] [INFO] basehttp : "POST /sign_index_action/2/ HTTP/1.1" 200 2776
+[2020-02-13 08:36:02,361] [INFO] basehttp : "GET /sign_index2/1/ HTTP/1.1" 200 1509
+[2020-02-13 08:36:02,361] [INFO] basehttp : "GET /sign_index2/1/ HTTP/1.1" 200 1509
+[2020-02-13 08:36:16,820] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3945
+[2020-02-13 08:36:16,820] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3945
+[2020-02-13 08:36:42,508] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3951
+[2020-02-13 08:36:42,508] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3951
+[2020-02-13 08:37:01,644] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3945
+[2020-02-13 08:37:01,644] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3945
+[2020-02-13 08:38:34,172] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3966
+[2020-02-13 08:38:34,172] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3966
+[2020-02-13 08:40:22,568] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3966
+[2020-02-13 08:40:22,568] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3966
+[2020-02-13 08:40:23,974] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3966
+[2020-02-13 08:40:23,974] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3966
+[2020-02-13 08:40:52,158] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3967
+[2020-02-13 08:40:52,158] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3967
+[2020-02-13 08:41:14,859] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3988
+[2020-02-13 08:41:14,859] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3988
+[2020-02-13 08:41:25,301] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3987
+[2020-02-13 08:41:25,301] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3987
+[2020-02-13 08:41:33,232] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3986
+[2020-02-13 08:41:33,232] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3986
+[2020-02-13 08:41:59,443] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3988
+[2020-02-13 08:41:59,443] [INFO] basehttp : "GET /event_manage/ HTTP/1.1" 200 3988

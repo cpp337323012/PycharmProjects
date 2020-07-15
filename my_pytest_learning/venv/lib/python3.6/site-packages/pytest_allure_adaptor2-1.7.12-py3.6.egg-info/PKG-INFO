@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytest-allure-adaptor2
+Version: 1.7.12
+Summary: Plugin for py.test to generate allure xml reports
+Home-page: https://github.com/allure-framework/allure-pytest
+Author: pupssman
+Author-email: pupssman@yandex-team.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

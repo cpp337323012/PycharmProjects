@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web自动化选择框</title>
+</head>
+<body>
+    <h3 style="color: brown">radio框</h3>
+    <div id="s_radio">
+        <input type="radio" name="teacher" value="小江老师">
+        小江老师
+        <br>
+        <input type="radio" name="teacher" value="小雷老师">
+        小雷老师
+        <br>
+        <input type="radio" name="teacher" value="小凯老师" checked="checked">
+        小凯老师
+        <br>
+    </div>
+    <hr>
+    <h3 style="color: brown">checkbox框</h3>
+    <div id="c_checkbox">
+        <input type="checkbox" name="teacher" value="小江老师">
+        小江老师
+        <br>
+        <input type="checkbox" name="teacher" value="小雷老师">
+        小雷老师
+        <br>
+        <input type="checkbox" name="teacher" value="小凯老师" checked="checked">
+        小凯老师
+        <br>
+    </div>
+    <hr>
+    <h3 style="color: brown">select框</h3>
+    <div id="s_select">
+        <h4 style="color: rgb(22, 118, 173)">单选</h4>
+        <p>姓名</p>
+        <select id="ss_single">
+            <option value="小江老师">小江老师</option>
+            <option value="小雷老师">小雷老师</option>
+            <option value="小凯老师" selected="selected">小凯老师</option>
+        </select>
+        <hr>
+        <h4 style="color: rgb(22, 118, 173)">多选</h4>
+        <p>课程</p>
+        <select id="ss_multi" multiple>
+            <option value="小江老师">小江老师</option>
+            <option value="小雷老师">小雷老师</option>
+            <option value="小凯老师" selected="selected">小凯老师</option>
+        </select>
+    </div>
+</body>
+</html>
