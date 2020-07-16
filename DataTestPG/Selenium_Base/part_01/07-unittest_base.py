@@ -23,5 +23,41 @@ class TestDictValueFormatFunction(unittest.TestCase):
         self.assertEqual(self.seq, range(10))
         self.assertRaises(TypeError,  random.shuffle, (1,2,3))
 
+
+class myclass(object):
+    @classmethod
+    def sum(cls, a, b):
+        return a + b
+
+    @classmethod
+    def sub(cls, a, b):
+        return a - b
+
+class mytest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        '''初始化固件'''
+        print('---setUpclass')
+
+    @classmethod
+    def tearDownClass(cls):
+            print('---tearDownclass')
+
+    def setUp(self):
+        self.a = 3
+        self.b = 1
+        print('--setup')
+
+    def tearDown(self):
+        print('---tearDown')
+
+
+    def testsum(self):
+        self.assertEqual(myclass.sum(self.a, self.b), 4, 'test sum fail')
+
+    def testsub(self):
+        self.assertEqual(myclass.sub(self.a, self.b), 2, 'test sub fail')
+
+
 if __name__ == '__main':
     unittest.main()
