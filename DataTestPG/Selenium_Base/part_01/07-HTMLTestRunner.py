@@ -52,7 +52,7 @@ if __name__ == '__main__':
     suite2 = unittest.TestLoader().loadTestsFromTestCase(SuiteTestPow)
 
     suite = unittest.TestSuite([suite1, suite2])
-    filename = '/Users/cp/PycharmProjects/DataTestPG/Selenium_Base/test.html'
+    filename = './test.html'
     with open(filename, 'wb') as f:
         runner = HTMLTestRunner.HTMLTestRunner(stream=f, title='Report_title', description='Report_description')
     # 运行测试集合
