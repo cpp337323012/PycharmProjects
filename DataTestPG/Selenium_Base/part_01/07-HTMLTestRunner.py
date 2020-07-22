@@ -57,3 +57,5 @@ if __name__ == '__main__':
         runner = HTMLTestRunner.HTMLTestRunner(stream=f, title='Report_title', description='Report_description')
     # 运行测试集合
         runner.run(suite)
+
+'''执行testcase成功，未生成测试报告，参考：https://blog.csdn.net/huilan_same/article/details/51727572解决'''
