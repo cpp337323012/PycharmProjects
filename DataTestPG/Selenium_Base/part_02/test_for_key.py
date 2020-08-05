@@ -30,3 +30,5 @@ class TestForKey(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+'''将Selenium常用的方法，封装为类对象，将类对象作为工具，集合数据驱动。数据驱动以Excel文件或ddt，yamo。将
+执行测试断言结果以文件形式保存'''

@@ -22,7 +22,7 @@ class TestKeyWords:
     # 获取元素
     def locator(self, locator_type, value):
         if locator_type == 'xpath':
-            el =  self.driver.find_element_by_xpath(value)
+            el = self.driver.find_element_by_xpath(value)
             return el
         elif locator_type == 'id':
             el = self.driver.find_element_by_id(value)
@@ -39,6 +39,7 @@ class TestKeyWords:
     # 关闭浏览器
     def quit_browser(self):
         self.driver.quit()
+
 
 if __name__ == '__main__':
     tk = TestKeyWords('http://www.baidu.com', 'chrome')
