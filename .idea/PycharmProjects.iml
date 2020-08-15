@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/DataTestPG/Python_Base/part05" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataTestPG/Selenium_Base/part_03/Base" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DataTestPG/Selenium_Base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataTestPG/Selenium_Base/part_03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataTestPG/Selenium_Base/part_03/UnitTest/test_data_xml" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/my_pytest_learning/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (DataTestPG)" jdkType="Python SDK" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<bookList type="technology">
+    <book>
+        <name>Selenium WebDriver实战宝典</name>
+        <author>吴晓华</author>
+    </book>
+    <book>
+        <name>HTTP权威指南</name>
+        <author>古尔利</author>
+    </book>
+    <book>
+        <name>探索式软件测试</name>
+        <author>惠特克</author>
+    </book>
+
+</bookList>
