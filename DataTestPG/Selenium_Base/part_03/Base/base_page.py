@@ -21,3 +21,9 @@ class BasePage:
     # 访问url
     def visit(self, url):
         self.driver.get(url)
+
+class BasePage:
+    def __init__(self, driver):
+        self.driver = driver
+
+
