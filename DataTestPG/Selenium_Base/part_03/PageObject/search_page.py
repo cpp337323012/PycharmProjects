@@ -6,6 +6,7 @@ from base_page import BasePage
 
 
 class SearchPage(BasePage):
+    # 定义一个id = kw的元素
     input_id = (By.ID, 'kw')
     click_id = (By.ID, 'su')
 
@@ -15,16 +16,15 @@ class SearchPage(BasePage):
     def click_element(self):
         self.locator_ele(self.click_id).click()
 
-    def check(self, url, input_text):
-        self.visit(url)
-        self.input_text(input_text)
+    def check(self, text):
+        self.visit()
+        self.input_text(text)
         self.click_element()
         self.quit_browser()
 
 
 if __name__ == '__main__':
     driver = webdriver.Chrome(r'/Users/cp/PycharmProjects/DataTestPG/chromedriver')
-    url = 'http://www.baidu.com'
-    sp = SearchPage(driver)
+    sp = SearchPage(driver, url='http://www.baidu.com')
     #
-    sp.check(url, '西天取经')
+    sp.check(text='西天取经')

@@ -15,7 +15,7 @@ class TestSearchPage(unittest.TestCase):
     @data('http://www.baidu.com')
     def testSearch(self, url):
         self.sp = SearchPage(self.driver, url)
-        self.sp.search_text()
+        self.sp.check('西天取经')
 
     def tearDown(self):
         self.driver.quit()
