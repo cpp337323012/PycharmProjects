@@ -2,25 +2,20 @@
 
 import unittest
 from selenium import webdriver
-from part_03.PageObject.search_page import Search
+from part_03.PageObject.search_page import SearchPage
+from ddt import ddt, data
 
+
+@ddt
 class TestSearchPage(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome
+        self.driver = webdriver.Chrome(r'/Users/cp/PycharmProjects/DataTestPG/chromedriver')
 
-    def testSearch(self):
-        driver =  self.driver
-        url = 'http://www.baidu.com'
-        text = 'selenium'
-        assert_title = 'selenium_搜索'
-        search_Page = Search(driver, url)
-
-        search_Page.gotoBaiduHome()
-        search_Page.input_search_text(text)
-        search_Page.click_search_btn()
-
-        self.assertEqual(search_Page.get_title(), assert_title)
+    @data('http://www.baidu.com')
+    def testSearch(self, url):
+        self.sp = SearchPage(self.driver, url)
+        self.sp.search_text()
 
     def tearDown(self):
         self.driver.quit()
